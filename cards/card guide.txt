@@ -1,0 +1,59 @@
+Monster cards
+	Normal  - okrem svojej ATK/DEF value nemajú žiadne iné výhody
+		- typy: Water, Fire, Earth, Dark, Light
+
+	Effect 	- majú najmenej 1 schopnosť alebo podmienku 
+		- delenie normal este rozlišujeme na podtypy:
+		Earth:
+			Machine 	- negate any trap card that targets this card then destroy it, if used in attack opponent cannot activate any spell or trap card.
+			Needle  	- when it destroys a monster and sends it to the graveyard, inflict damage to your opponent's life points equal to the level of the destroyed moster times the number of points explicitly written on each card
+			Orc		- if card attacks it is changed to Defence position at the end of the battle phase, its position cannot be changed until the end of next turn (significant ATK value but very low DEF)
+			Disposal Unit 	- negate the activation of your opponent's trap card and destroy it
+			Morhing Jar	- both players discard as many cards as possible from their hands, then each player draws 5 cards
+		Water
+			Sea Serpent	- requires two of 4 level monsters on deck, all water monsters gain ATK by value on each card
+ 			Aqua		- as long as this card remains face up on the field increase ATK by specific value on card of all Water monsters and decrease all Fire monsters by given values
+		Fire
+			Warrior		- this cards gains ATK specified by each card for each face-up fire monster on the field except this card (low start ATK value)
+			Abaki		- when this card is destroyed both players take xxx damage
+			Alien Telepath	- if opponent attacks with level 4 or more monster, their used card will take ATK damage
+		Light		
+			Thunder		- if destroyed player can summon 1 Earth card from Graveyard
+			Fairy		- when this card destoys a monster, increase your life points by the level of the destroyed card times xxx points on each card
+		Dark
+			Red-Eyes	- once per turn destroys one level 4 or lower Spell or Trap card from your opponents placed cards
+			Dragon		- target this to one Red-Eyes monster which gains ATK specified by each card, it is destroyed with target card
+
+Spell cards
+	Normal
+		Soul Release 	- taget up to x cards in any graveyard and banish them
+		Card Destruction- both players discard as many cards as possible from their hands, then each player draws the same number of cards
+		Dark Hole	- destroy all monster cards on the field
+	
+	Continuous
+		Burning Land	- if there are any field spell cards destroy them, during each players's standby phase, the turn player takes xxx damage
+		Soul Absorption - if a card is banished gain xxx life points for each
+		
+	Equip - spojené s monster card
+		Black Pendant 		- the equipped monster gains xxx ATK, when this card is sent from the field to the graveyard, inflict xxx damage to the opponent 
+		Mask of Brutality	- the quipped monster gains xxx ATK and loses xxx DEF, during each of your standby phases pay xxx life points or destroy this card (usually same value in all three)
+		Horn of Light		- increase the DEF of the equipped monster by xxx, when this card is sent from the field to the graveyard if you pay xxx life points this card returns to the top of your deck
+		Camouflage		- you can only equip this card to a level 1 monster, the monster with this card can attack your opponent's life points directly
+		
+	Field - ovplyvnujú state of fields or cards
+		Closed Forest	- all earth monsters gain xxx ATK for every monster in the graveyard
+		Summon Breaker	- if the run player conducts their third summon of a monster this turn, then skip into the end phase
+		Typhoon		- target one spell/trap card on the field and destroy it
+	
+
+Trap cards
+	Normal
+		Mirror Force	- when an opponent's moster declares and attack, destroy all Attack position monsters your opponent controls
+		Blast		- banished opponent's field spell card
+
+	Continuous
+		Circle			- target one of the opponent's monsters, it cannot attack or change its position, when that monster is destroyed so is this card
+		Call of the Haunted	- taget one monster from graveyard and summon that monster in attack position. When one card in this pair is destroyed so is the other.
+	Counter
+		Drop off	- when opponent draws a card from their deck they must discard one card from their hand
+		Judgment	- when spell or trap card is activated: pay half your life points, negate the activation and destroy that card
